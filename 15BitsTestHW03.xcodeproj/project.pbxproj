@@ -19,6 +19,7 @@
 		A2BC7FBA18B1100C006C86B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BC7FA218B1100B006C86B6 /* UIKit.framework */; };
 		A2BC7FC218B1100C006C86B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2BC7FC018B1100C006C86B6 /* InfoPlist.strings */; };
 		A2BC7FC418B1100C006C86B6 /* iOSDev15BitsTestHW03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BC7FC318B1100C006C86B6 /* iOSDev15BitsTestHW03Tests.m */; };
+		A2BC7FCF18B1102B006C86B6 /* RITStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BC7FCE18B1102B006C86B6 /* RITStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +33,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A2BC7F9B18B1100A006C86B6 /* iOSDev15BitsTestHW03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDev15BitsTestHW03.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BC7F9B18B1100A006C86B6 /* 15BitsTestHW03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 15BitsTestHW03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC7F9E18B1100A006C86B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2BC7FA018B1100B006C86B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A2BC7FA218B1100B006C86B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A2BC7FA618B1100B006C86B6 /* iOSDev15BitsTestHW03-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSDev15BitsTestHW03-Info.plist"; sourceTree = "<group>"; };
+		A2BC7FA618B1100B006C86B6 /* 15BitsTestHW03-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "15BitsTestHW03-Info.plist"; sourceTree = "<group>"; };
 		A2BC7FA818B1100B006C86B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2BC7FAA18B1100B006C86B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2BC7FAC18B1100B006C86B6 /* iOSDev15BitsTestHW03-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSDev15BitsTestHW03-Prefix.pch"; sourceTree = "<group>"; };
+		A2BC7FAC18B1100B006C86B6 /* 15BitsTestHW03-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15BitsTestHW03-Prefix.pch"; sourceTree = "<group>"; };
 		A2BC7FAD18B1100B006C86B6 /* RITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITAppDelegate.h; sourceTree = "<group>"; };
 		A2BC7FAE18B1100B006C86B6 /* RITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITAppDelegate.m; sourceTree = "<group>"; };
 		A2BC7FB018B1100B006C86B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A2BC7FB618B1100B006C86B6 /* iOSDev15BitsTestHW03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDev15BitsTestHW03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BC7FB618B1100B006C86B6 /* 15BitsTestHW03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 15BitsTestHW03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC7FB718B1100B006C86B6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A2BC7FBF18B1100C006C86B6 /* iOSDev15BitsTestHW03Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSDev15BitsTestHW03Tests-Info.plist"; sourceTree = "<group>"; };
+		A2BC7FBF18B1100C006C86B6 /* 15BitsTestHW03Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "15BitsTestHW03Tests-Info.plist"; sourceTree = "<group>"; };
 		A2BC7FC118B1100C006C86B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2BC7FC318B1100C006C86B6 /* iOSDev15BitsTestHW03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDev15BitsTestHW03Tests.m; sourceTree = "<group>"; };
+		A2BC7FCD18B1102B006C86B6 /* RITStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITStudent.h; sourceTree = "<group>"; };
+		A2BC7FCE18B1102B006C86B6 /* RITStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +90,8 @@
 		A2BC7F9C18B1100A006C86B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2BC7F9B18B1100A006C86B6 /* iOSDev15BitsTestHW03.app */,
-				A2BC7FB618B1100B006C86B6 /* iOSDev15BitsTestHW03Tests.xctest */,
+				A2BC7F9B18B1100A006C86B6 /* 15BitsTestHW03.app */,
+				A2BC7FB618B1100B006C86B6 /* 15BitsTestHW03Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +110,8 @@
 		A2BC7FA418B1100B006C86B6 /* iOSDev15BitsTestHW03 */ = {
 			isa = PBXGroup;
 			children = (
+				A2BC7FCD18B1102B006C86B6 /* RITStudent.h */,
+				A2BC7FCE18B1102B006C86B6 /* RITStudent.m */,
 				A2BC7FAD18B1100B006C86B6 /* RITAppDelegate.h */,
 				A2BC7FAE18B1100B006C86B6 /* RITAppDelegate.m */,
 				A2BC7FB018B1100B006C86B6 /* Images.xcassets */,
@@ -118,10 +123,10 @@
 		A2BC7FA518B1100B006C86B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2BC7FA618B1100B006C86B6 /* iOSDev15BitsTestHW03-Info.plist */,
+				A2BC7FA618B1100B006C86B6 /* 15BitsTestHW03-Info.plist */,
 				A2BC7FA718B1100B006C86B6 /* InfoPlist.strings */,
 				A2BC7FAA18B1100B006C86B6 /* main.m */,
-				A2BC7FAC18B1100B006C86B6 /* iOSDev15BitsTestHW03-Prefix.pch */,
+				A2BC7FAC18B1100B006C86B6 /* 15BitsTestHW03-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +143,7 @@
 		A2BC7FBE18B1100C006C86B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2BC7FBF18B1100C006C86B6 /* iOSDev15BitsTestHW03Tests-Info.plist */,
+				A2BC7FBF18B1100C006C86B6 /* 15BitsTestHW03Tests-Info.plist */,
 				A2BC7FC018B1100C006C86B6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2BC7F9A18B1100A006C86B6 /* iOSDev15BitsTestHW03 */ = {
+		A2BC7F9A18B1100A006C86B6 /* 15BitsTestHW03 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2BC7FC718B1100C006C86B6 /* Build configuration list for PBXNativeTarget "iOSDev15BitsTestHW03" */;
+			buildConfigurationList = A2BC7FC718B1100C006C86B6 /* Build configuration list for PBXNativeTarget "15BitsTestHW03" */;
 			buildPhases = (
 				A2BC7F9718B1100A006C86B6 /* Sources */,
 				A2BC7F9818B1100A006C86B6 /* Frameworks */,
@@ -159,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = iOSDev15BitsTestHW03;
+			name = 15BitsTestHW03;
 			productName = iOSDev15BitsTestHW03;
-			productReference = A2BC7F9B18B1100A006C86B6 /* iOSDev15BitsTestHW03.app */;
+			productReference = A2BC7F9B18B1100A006C86B6 /* 15BitsTestHW03.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A2BC7FB518B1100B006C86B6 /* iOSDev15BitsTestHW03Tests */ = {
+		A2BC7FB518B1100B006C86B6 /* 15BitsTestHW03Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2BC7FCA18B1100C006C86B6 /* Build configuration list for PBXNativeTarget "iOSDev15BitsTestHW03Tests" */;
+			buildConfigurationList = A2BC7FCA18B1100C006C86B6 /* Build configuration list for PBXNativeTarget "15BitsTestHW03Tests" */;
 			buildPhases = (
 				A2BC7FB218B1100B006C86B6 /* Sources */,
 				A2BC7FB318B1100B006C86B6 /* Frameworks */,
@@ -177,9 +182,9 @@
 			dependencies = (
 				A2BC7FBC18B1100C006C86B6 /* PBXTargetDependency */,
 			);
-			name = iOSDev15BitsTestHW03Tests;
+			name = 15BitsTestHW03Tests;
 			productName = iOSDev15BitsTestHW03Tests;
-			productReference = A2BC7FB618B1100B006C86B6 /* iOSDev15BitsTestHW03Tests.xctest */;
+			productReference = A2BC7FB618B1100B006C86B6 /* 15BitsTestHW03Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +202,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2BC7F9618B11009006C86B6 /* Build configuration list for PBXProject "iOSDev15BitsTestHW03" */;
+			buildConfigurationList = A2BC7F9618B11009006C86B6 /* Build configuration list for PBXProject "15BitsTestHW03" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,8 +214,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2BC7F9A18B1100A006C86B6 /* iOSDev15BitsTestHW03 */,
-				A2BC7FB518B1100B006C86B6 /* iOSDev15BitsTestHW03Tests */,
+				A2BC7F9A18B1100A006C86B6 /* 15BitsTestHW03 */,
+				A2BC7FB518B1100B006C86B6 /* 15BitsTestHW03Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2BC7FAF18B1100B006C86B6 /* RITAppDelegate.m in Sources */,
+				A2BC7FCF18B1102B006C86B6 /* RITStudent.m in Sources */,
 				A2BC7FAB18B1100B006C86B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +264,7 @@
 /* Begin PBXTargetDependency section */
 		A2BC7FBC18B1100C006C86B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2BC7F9A18B1100A006C86B6 /* iOSDev15BitsTestHW03 */;
+			target = A2BC7F9A18B1100A006C86B6 /* 15BitsTestHW03 */;
 			targetProxy = A2BC7FBB18B1100C006C86B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -361,9 +367,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOSDev15BitsTestHW03/iOSDev15BitsTestHW03-Prefix.pch";
-				INFOPLIST_FILE = "iOSDev15BitsTestHW03/iOSDev15BitsTestHW03-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iOSDev15BitsTestHW03/15BitsTestHW03-Prefix.pch";
+				INFOPLIST_FILE = "iOSDev15BitsTestHW03/15BitsTestHW03-Info.plist";
+				PRODUCT_NAME = 15BitsTestHW03;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,9 +380,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOSDev15BitsTestHW03/iOSDev15BitsTestHW03-Prefix.pch";
-				INFOPLIST_FILE = "iOSDev15BitsTestHW03/iOSDev15BitsTestHW03-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iOSDev15BitsTestHW03/15BitsTestHW03-Prefix.pch";
+				INFOPLIST_FILE = "iOSDev15BitsTestHW03/15BitsTestHW03-Info.plist";
+				PRODUCT_NAME = 15BitsTestHW03;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -397,8 +403,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iOSDev15BitsTestHW03Tests/iOSDev15BitsTestHW03Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "iOSDev15BitsTestHW03Tests/15BitsTestHW03Tests-Info.plist";
+				PRODUCT_NAME = 15BitsTestHW03Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -416,8 +422,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSDev15BitsTestHW03/iOSDev15BitsTestHW03-Prefix.pch";
-				INFOPLIST_FILE = "iOSDev15BitsTestHW03Tests/iOSDev15BitsTestHW03Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "iOSDev15BitsTestHW03Tests/15BitsTestHW03Tests-Info.plist";
+				PRODUCT_NAME = 15BitsTestHW03Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -426,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2BC7F9618B11009006C86B6 /* Build configuration list for PBXProject "iOSDev15BitsTestHW03" */ = {
+		A2BC7F9618B11009006C86B6 /* Build configuration list for PBXProject "15BitsTestHW03" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2BC7FC518B1100C006C86B6 /* Debug */,
@@ -435,21 +441,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2BC7FC718B1100C006C86B6 /* Build configuration list for PBXNativeTarget "iOSDev15BitsTestHW03" */ = {
+		A2BC7FC718B1100C006C86B6 /* Build configuration list for PBXNativeTarget "15BitsTestHW03" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2BC7FC818B1100C006C86B6 /* Debug */,
 				A2BC7FC918B1100C006C86B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A2BC7FCA18B1100C006C86B6 /* Build configuration list for PBXNativeTarget "iOSDev15BitsTestHW03Tests" */ = {
+		A2BC7FCA18B1100C006C86B6 /* Build configuration list for PBXNativeTarget "15BitsTestHW03Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2BC7FCB18B1100C006C86B6 /* Debug */,
 				A2BC7FCC18B1100C006C86B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
